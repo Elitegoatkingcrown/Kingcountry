@@ -1,0 +1,110 @@
+Version 1.3.5
+- Add allium algo
+- Add x12 algo
+- Add x16s algo
+- Add phi and phi2
+- Add sonoa
+- Handle new aeon cryptolight variant
+- Handle new monero algo (hardcoded)
+
+Version 1.3.3
+- Add tribus algo
+- Add x16r algo
+- Add keccakc variant
+
+Version 1.3.2
+- Add bitcore algo
+- Add jha algo
+
+Version 1.3.1
+- Add timetravel algo
+- Add --max-log-rate to limit per-core logs
+
+Version 1.3 (Tanguy Pruvot)
+- Add decred algo
+- Add lbry algo
+- Add sia algo
+- Add x11evo algo
+- Add x17 and xevan algos
+- Add veltor algo
+- Enhance Blake2-S
+- Stratum benchmarks support
+- Show diff and solved blocks by default
+
+Version 1.2 (Tanguy Pruvot)
+- Add cryptonight-light (Aeon)
+- Add Lyra2REv2 algo (Vertcoin)
+- Allow to load a remote config with curl
+- Algorithm parameter is now case insensitive
+- Drop anime algo (dead coin)
+- Add Sib(coin) algo
+- Add Bastion algo
+- Add Yescrypt and scrypt-jane algos
+- Compute and show network diff in pools too
+- Compute Shares diff and count solved blocks
+- Checkup on arm, tested ok on Tegra K1 (CyanogenMod 12.1)
+
+version 1.1
+- Add basic API remote control (quit/seturl)
+- Add GroestlCoin, Diamond and Myriad variants
+- Add Pluck algo and fix gbt query crash
+- Add ZR5 algo (ZRC) and fix longpoll bug on linux
+- Add Luffa algo
+- Add Skein2 algo (Double Skein for Woodcoin)
+- Add Animecoin algo (Quark variant)
+- Add Dropcoin pok algo
+- Add BMW-256 (MDT) algo
+- Add Axiom algo
+- Change some logged strings
+- Use all cores by default, not N-1
+- Handle a default config to run without params
+- add cpu-priority and cpu-affinity options
+- add NSIS installer script for windows setup
+- Implement background option on windows
+- add -m stratum option (diff-multiplier)
+- Time limit to allow benchmarks or cron jobs
+- Fix Cryptonight stratum support
+- Allow to disable extranonce support
+
+Version 1.0.9
+- pool extranonce subscribe
+- upgrade jansson
+- lyra2 algo
+- fix for solo mining
+- API websocket support
+
+Version 1.0.8
+- API Monitoring Support
+- Enhance config values support (int/real/bool)
+- Rewrite blake algo (speed x2)
+
+Version 1.0.7 - VC2013 + MinGW 64
+
+- Add NIST5 and QUBIT algos
+- Show current stratum bloc height
+- Fix wallet solo mining
+
+Version multi 1.0.6
+
+- Fix scrypt algo
+- More work on VC2013
+- Add -f tuning option to test with reduced difficulty
+- Add S3 algo
+
+Version 1.0.5
+
+- Merge remaining v2.4 pooler cpu-miner changes
+- Add colored output (disable with --no-color)
+- Test and fix blake on NEOS, needs 14 rounds (was 8)
+- Add pentablake (5x blake256) (from bitbandi)
+- Add neoscrypt
+- Windows (VC++ 2013 and MinGW64 build support)
+- Enhance --version informations (compiler + lib versions)
+
+Version 1.0.4 (Tanguy Pruvot)
+
+- Add x13 x14 and x15 algos (Sherlockcoin, X14Coin, Webcoin..)
+- Add scrypt:N variants (Vertcoin)
+- Add fresh algo
+- Fix thread khashes/s value output
+- Add a configure option --disable-assembly
